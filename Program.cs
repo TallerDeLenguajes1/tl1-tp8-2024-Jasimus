@@ -36,5 +36,10 @@ do
     esTareaR = int.TryParse(tareRS, out tareR)
 }while(!esTareaR);
 
+int i = 0;
 
+foreach(var tare in TareasPendientes)
+{
+    if(tare.TareaID == tareR)
+}
 
